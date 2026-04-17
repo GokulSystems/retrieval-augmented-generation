@@ -8,13 +8,17 @@ This repository contains a minimal retrieval-augmented generation project built 
 
 ## Contents
 
-- dapter.gguf - local adapter model file (ignored by Git)
+- adapter.gguf - local adapter model file (ignored by Git)
 - model.gguf - local model file (ignored by Git)
-- ag_inference.py - top-level inference entrypoint
+- 
+rag_inference.py - top-level inference entrypoint
 - search.py - search/embedding helper script
-- ag_pipeline_1/ - pipeline implementation and service examples
-- equirements.txt - project requirements
-- iquirement.txt - generated freeze output from the current virtual environment
+- 
+rag_pipeline_1/ - pipeline implementation and service examples
+- 
+requirements.txt - project requirements
+- 
+requirement.txt - generated freeze output from the current virtual environment
 
 ## Setup
 
@@ -49,7 +53,8 @@ python rag_pipeline_1/main.py
 
 ## Notes
 
-- env/, dapter.gguf, model.gguf, and ag_pipeline*/documents/ are excluded from Git.
+- venv/, adapter.gguf, model.gguf, and 
+ag_pipeline*/documents/ are excluded from Git.
 - Keep local model artifacts out of the repository and load them from a secure location during runtime.
 
 ## License
